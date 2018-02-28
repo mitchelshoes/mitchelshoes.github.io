@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mitchel Calcaterra</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114903753-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-114903753-1');
+		</script>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">						
+						<h2>Slot Orders</h2>
+						<form method="post" action="mailto:mitchel@calcaterra.me">
+							<div class="field">
+								<input type="text" name="item" id="item" placeholder="Item Name & Color" />
+							</div>
+							<div class="field">
+								<input type="text" name="size" id="size" placeholder="Size" />
+							</div>
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Full Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<input type="text" name="address" id="address" placeholder="Address" />
+							</div>
+							<div class="field">
+								<input type="text" name="city" id="city" placeholder="City, State" />
+							</div>
+							<div class="field">
+								<input type="text" name="zip" id="zip" placeholder="Zip Code" />
+							</div>
+							<div class="field">
+								<input type="text" name="phone" id="phone" placeholder="Phone Number" />
+							</div>
+							<div class="field">
+								<input type="text" name="card" id="card" placeholder="Card Number" />
+							</div>
+							<div class="field">
+								<input type="text" name="cvv" id="cvv" placeholder="Card CVV" />
+							</div>
+							<div class="field">
+								<input type="text" name="exp" id="exp" placeholder="Card Expiration Date (MM/YY)" />
+							</div>
+							<div class="field">
+								<input type="text" name="twitter" id="twitter" placeholder="Twitter Handle" />
+							</div>
+							<div>
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Release</option>
+										<option value="kith">KITH Champion - $20</option>
+									</select>
+								</div>
+							</div>
+							</br>
+							<div class="field">
+								<input type="checkbox" id="consent" name="consent" /><label for="consent">I give full consent to use my credit/debit card</label>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="aco" name="aco" /><label for="aco">I will pay the ACO Fee if the order is successful</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						
+						<footer>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
