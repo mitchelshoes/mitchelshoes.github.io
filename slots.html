@@ -33,7 +33,7 @@
 				<!-- Main -->
 					<section id="main">						
 						<h2>Slot Orders</h2>
-						<form name="slot_form" method="post" action="slot-form-handler.php">
+						<form name="slot_form" method="post" action="/slot-form-handler.php">
 							<div class="field">
 								<input type="text" name="item" id="item" placeholder="Item Name & Color" />
 							</div>
@@ -85,9 +85,8 @@
 							<div class="field">
 								<input type="checkbox" id="aco" name="aco" /><label for="aco">I will pay the ACO Fee if the order is successful</label>
 							</div>
-							<ul class="actions">
-								<li><a type="submit" value="Submit" class="button">Submit Info</a></li>
-							</ul>
+							<li><input type="submit" value="Submit Info" action="/slot-form-handler.php"></li>
+							
 						</form>
 						<hr />
 						
