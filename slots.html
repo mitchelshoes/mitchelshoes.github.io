@@ -33,7 +33,7 @@
 				<!-- Main -->
 					<section id="main">						
 						<h2>Slot Orders</h2>
-						<form method="post" action="mailto:mitchel@calcaterra.me">
+						<form name="slot_form" method="post" action="slot-form-handler.php">
 							<div class="field">
 								<input type="text" name="item" id="item" placeholder="Item Name & Color" />
 							</div>
@@ -72,7 +72,7 @@
 							</div>
 							<div>
 								<div class="select-wrapper">
-									<select name="department" id="department">
+									<select name="release" id="release">
 										<option value="">Release</option>
 										<option value="kith">KITH Champion - $20</option>
 									</select>
@@ -86,7 +86,7 @@
 								<input type="checkbox" id="aco" name="aco" /><label for="aco">I will pay the ACO Fee if the order is successful</label>
 							</div>
 							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
+								<li><a type="submit" value="Submit" class="button">Submit Info</a></li>
 							</ul>
 						</form>
 						<hr />
